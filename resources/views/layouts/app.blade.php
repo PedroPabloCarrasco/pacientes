@@ -44,7 +44,7 @@
                             <a href="{{ url('/pacientes') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Pacientes</a> 
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/register') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> psicologos</a> 
+                            <a href="{{ url('/home') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> psicologos</a> 
                         </li>
                     </ul>
 					@endauth()

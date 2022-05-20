@@ -97,12 +97,12 @@ class Pacientes extends Component
 			'ApellidoPaterno' => $this-> ApellidoPaterno,
 			'ApellidoMaterno' => $this-> ApellidoMaterno,
 			'Correo' => $this-> Correo,
-			'Descripciion' => $this-> Foto
+			'Descripcion' => $this-> Foto
             ]);
 
             $this->resetInput();
             $this->updateMode = false;
-			session()->flash('message', 'Paciente Successfully updated.');
+			session()->flash('message', 'Paciente Actualizado exitosamente.');
         }
     }
 
